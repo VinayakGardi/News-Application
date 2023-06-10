@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements SelectListener {
         dialog.show();
 
         RequestManager manager = new RequestManager(this);
-        manager.getNewsHeadlines(listener , "general",null);
+        manager.getNewsHeadlines(listener , "science", null);
 
 
     }
